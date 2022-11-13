@@ -1,9 +1,33 @@
 /* Add styling for your page here */
 
 .App {
-
+    display: flex;
+    flex-direction: row;
 }
 
-.BakeryItem {
-  
+p {
+    font-size: 20px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+#content{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 50px;
+}
+#cart{
+    width: 20%;
+    position: fixed;
+    top: 20px;
+    right: 0px;
+}
+img {
+  width: 200px;
+  padding:0;
+  margin:0;
 }
